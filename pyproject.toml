@@ -50,11 +50,12 @@ classifiers = [
 ]
 dependencies = [
     "ase",
-    "dgl<=2.1.0; sys.platform == 'win32'",
-    "dgl<=2.2.0; sys.platform == 'darwin'",
+    #"dgl<=2.1.0; sys.platform == 'win32'",
+    #"dgl<=2.2.0; sys.platform == 'darwin'",
     "torch<=2.2.0; sys.platform != 'linux'",
     "torchdata<=0.7.1; sys.platform != 'linux'",
-    "dgl<=2.4.0; sys.platform == 'linux'",
+    #"dgl<=2.4.0; sys.platform == 'linux'",
+    "dgl",
     "torch>=2.6.0; sys.platform == 'linux'",
     "torchdata<=0.8.0; sys.platform == 'linux'",
     "pymatgen",
